@@ -325,7 +325,7 @@ export default function DomWitChat() {
         setAiSuggestions([]);
       }
     }
-  }, [activeId]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [activeId, activeDialog]);
 
   // ─── Send message ──────────────────────────────────────────────────
   const sendMessage = useCallback((text, type = 'text', extra = {}) => {
