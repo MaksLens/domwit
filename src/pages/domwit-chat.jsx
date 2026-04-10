@@ -15,7 +15,7 @@ function truncate(str, n) {
 
 const FRAUD_PATTERNS = [
   /(\+7|8)[\s\-]?\(?\d{3}\)?/,
-  /telegram|whatsapp|viber|вотсап|ватсап|телеграм|вайбер/i,
+  /telegram|whatsapp|viber|вотсап|вотсапп|ватсап|ватсапп|телеграм|вайбер/i,
   /предоплата|переведите|аванс|задаток/i,
 ]
 
